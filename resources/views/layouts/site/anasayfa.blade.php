@@ -10,6 +10,7 @@
   <body>
   @include('layouts.site.navbar')  
  @include('layouts.site.couresel') 
+ @include('layouts.site.footer') 
 
   </body>
 </html>

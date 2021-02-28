@@ -458,4 +458,88 @@ template {
 [hidden] {
   display: none; }
 
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Tahoma, sans-serif; }
+
+header {
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center; }
+
+header h1 {
+  font-size: 2.625em;
+  margin: 0;
+  font-weight: 300;
+  cursor: pointer;
+  text-shadow: 2px 2px 8px #583A3A;
+  color: #fff;
+  -webkit-transition: text-shadow 0.8s, color 0.8s;
+  -moz-transition: text-shadow 0.8s, color 0.8s;
+  transition: text-shadow 0.8s, color 0.8s; }
+
+header h1:hover {
+  color: #89867e;
+  text-shadow: none; }
+
+section {
+  margin: 0 auto;
+  padding: 3em 3em;
+  margin: 3em;
+  text-align: center; }
+
+.color-3 {
+  background: red; }
+
+.kapsa nav a {
+  position: relative;
+  display: inline-block;
+  margin: 15px 25px;
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  font-size: 1.5em; }
+.kapsa nav a:hover,
+.kapsa nav a:focus {
+  outline: none; }
+
+.nav-19 a {
+  padding: 5px;
+  text-shadow: -1px 1px 8px #fff; }
+
+.nav-19 a::after,
+.nav-19 a::before {
+  position: absolute;
+  content: "";
+  opacity: 1;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: width 0.4s 0.1s;
+  -moz-transition: width 0.4s 0.1s;
+  transition: width 0.4s 0.1s; }
+
+.nav-19 a::after {
+  top: 94%;
+  left: 0; }
+
+.nav-19 a::before {
+  top: 0;
+  right: 0; }
+
+.nav-19 a:hover::after,
+.nav-19 a:hover::before {
+  width: 100%; }
+
 /*# sourceMappingURL=app.css.map */

@@ -4,7 +4,7 @@
 <nav class="navbar open-menu">
   <div class="header-menu">
 <ul class="nav-list">  
-  <a class="navbar-brand" href="#">PARTAMO</a>
+  <a class="navbar-brand" href="#">DENİZ</a>
   <li><a href="">Anasayfa</a></li>
   <li><a href="">Dersler <i class="fas fa-chevron-down"></i></a>  
           <ul class="opennavbar">        
