@@ -491,8 +491,8 @@ header h1:hover {
 
 section {
   margin: 0 auto;
-  padding: 3em 3em;
-  margin: 3em;
+  padding: 1em 1em;
+  margin: 1em;
   text-align: center; }
 
 .color-3 {
@@ -501,7 +501,7 @@ section {
 .kapsa nav a {
   position: relative;
   display: inline-block;
-  margin: 15px 25px;
+  margin: 5px 5px;
   outline: none;
   color: #fff;
   text-decoration: none;
@@ -541,5 +541,10 @@ section {
 .nav-19 a:hover::after,
 .nav-19 a:hover::before {
   width: 100%; }
+
+@media screen and (max-width: 576px) {
+  .carousel-item img {
+    height: 50vh;
+    width: 100%; } }
 
 /*# sourceMappingURL=app.css.map */
