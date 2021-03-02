@@ -16,3 +16,33 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layouts.site.anasayfa');
 });
+
+Route::get('/bootstrap', function () {
+    return view('layouts.site.bootstrap');
+});
+Route::get('/anasayfa', function () {
+    return view('layouts.site.anasayfa');
+});
+
+Route::get('/javascript', function () {
+    return view('layouts.site.javascript');
+});
+
+Route::get('/csslesson', function () {
+    return view('layouts.site.csslesson');
+});
+Route::get('/contact', function () {
+    return view('layouts.site.contact');
+});
+Route::get('/lessons', function () {
+    return view('layouts.site.lessons');
+});
+Route::get('/aboutus', function () {
+    return view('layouts.site.aboutus');
+});
+Route::get('/help', function () {
+    return view('layouts.site.help');
+});
+
+
+

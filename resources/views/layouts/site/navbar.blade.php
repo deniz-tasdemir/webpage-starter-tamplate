@@ -5,15 +5,15 @@
   <div class="header-menu">
 <ul class="nav-list">  
   <a class="navbar-brand" href="#">DENİZ</a>
-  <li><a href="">Anasayfa</a></li>
+  <li><a  href="{{ url('/anasayfa') }}" >Anasayfa</a></li>
   <li><a href="">Dersler <i class="fas fa-chevron-down"></i></a>  
-          <ul class="opennavbar">        
-        <li><a href="">Bootstrap</a></li>
-        <li><a href="">Javascript</a></li>
-        <li><a href="">CSS 3</a></li>
+          <ul class="opennavbar">     
+       <li> <a href="{{ url('/bootstrap') }}" >Bootstrap</a> <li>      
+        <li><a href="{{ url('/javascript') }}" >Javascript</a></li>
+        <li><a href="{{ url('/csslesson') }}" >CSS 3</a></li>        
         </ul>
       </li>
-    <li><a href="#">İletişim</a></li> 
+      <li><a href="{{ url('/contact') }}" >İletişim</a></li>  
   </ul>
   </div>
   <div class="search">

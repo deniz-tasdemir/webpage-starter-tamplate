@@ -12,17 +12,17 @@
     <title>Hello, world!</title>
 </head>
 
-<body>
-
+<body> 
     <div class="container">        
         <div class="kapsa">   
         <section class="color-3">
             <nav class="nav-19">
-                <a href="#" data-hover="Lorem">Anasayfa</a>
-                <a href="#" data-hover="Ipsum">Dersler</a>
-                <a href="#" data-hover="Consectetur">Hakkımızda</a>
-                <a href="#" data-hover="Adipisicing">iletişim</a>
-                <a href="#" data-hover="Eiusmod">Yardım</a>
+            <a  href="{{ url('/anasayfa') }}" data-hover="Lorem">Anasayfa</a>               
+                <a  href="{{ url('/lessons') }}" data-hover="Lorem">Dersler</a>
+                <a  href="{{ url('/aboutus') }}" data-hover="Lorem">Hakkımızda</a>
+              <a href="{{ url('/contact') }}" data-hover="Adipisicing">İletişim</a>           
+                <a href="{{ url('/help') }}" data-hover="Adipisicing">Yardım</a>  
+               
             </nav>
         </section>
     </div>
