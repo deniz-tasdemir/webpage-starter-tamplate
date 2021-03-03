@@ -32,12 +32,12 @@
                 <a href="#news">Anasayfa</a>
                 <a href="#contact">Dersler</a>
                   <ul>
-                    <li><a href="#">Javascript</a></li>
-                    <li><a href="#">Bootstrap</a></li>
-                    <li><a href="#">CSS 3</a></li>
+                  <li><a href="{{ url('/bootstrap') }}">Bootstrap 4 </a></li>  
+                  <li><a href="{{ url('/javascript') }}">Javascript</a></li>                
+               <li><a href="{{ url('/csslesson') }}">CSS 3</a></li>    
+                                
                   </ul>
                 
-
                 <a href="#">İletişim</a>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">

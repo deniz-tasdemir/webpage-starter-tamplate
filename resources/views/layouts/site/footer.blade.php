@@ -32,9 +32,7 @@
             font-family: Tahoma;
             position: fixed;
             left: 0px;
-            bottom: 0px;
-            height: 30px;
-            width: 100%;
+            bottom: 0px;           
             background: #3D3535;
             border-top: 2px solid #CCC2C2;
             opacity: 0.7;
@@ -54,8 +52,7 @@
             padding-left: 10px;
         }
     </style>
-    <div id="footer">
-        <a href="http://www.webspeaks.in/2013/12/20-cool-hover-effects-using-css3.html">Go back to the original tutorial.</a>
+    <div id="footer">       
         <!-- Start of StatCounter Code for Default Guide -->
         <script type="text/javascript">
             var sc_project = 9479084;
