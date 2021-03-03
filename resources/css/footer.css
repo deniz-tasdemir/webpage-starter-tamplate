@@ -40,6 +40,7 @@ section {
 
 .kapsa {
   width: 85vw;
+  bottom: 0;
   margin-left: -30px; }
   .kapsa nav a {
     position: relative;
