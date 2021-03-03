@@ -26,8 +26,8 @@
 
         
         <!-- Hamburger-Menu -->
-        <div class="topnav">
-            <a href="#home" class="active">PARTAMO</a>
+        <div class="topnav"> 
+            <a href="{{ url('/anasayfa') }}" >Deniz</a>
             <div id="myLinks">
                 <a href="#news">Anasayfa</a>
                 <a href="#contact">Dersler</a>

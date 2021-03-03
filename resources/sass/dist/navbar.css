@@ -1,0 +1,193 @@
+body {
+  font-family: "RocknRoll One", sans-serif;
+  width: 100%;
+}
+body a {
+  text-decoration: none;
+}
+
+.nav-list {
+  text-align: center;
+  height: 40px;
+  margin-top: -5px;
+  display: inline-block;
+}
+.nav-list a {
+  color: white;
+}
+
+.open-menu {
+  width: 83.455vw;
+  border-radius: 30px;
+  background-color: #8d0707;
+  min-width: 450px;
+  height: 60px;
+  padding: 0;
+  margin: 0px 0px 10px 0px;
+  border: solid 5px black;
+}
+.open-menu ul li {
+  margin-top: 2px;
+  list-style: none;
+  position: relative;
+  display: block;
+  width: 90px;
+}
+.open-menu ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  border: solid 1px red;
+  border-radius: 10%;
+}
+.open-menu ul li a:hover {
+  text-decoration: none;
+  background-color: red;
+}
+
+.opennavbar {
+  display: none;
+  background: darkred;
+  height: 140px;
+  line-height: 140px;
+  border-radius: 10%;
+}
+.opennavbar li {
+  margin-left: -35px;
+  margin-top: 5px;
+}
+
+.open-menu ul li:hover .opennavbar {
+  display: block;
+  position: absolute;
+  z-index: 9;
+  width: 90px;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-list a {
+  text-align: center;
+}
+
+i.fa-chevron-down {
+  display: flex;
+  width: 20px;
+  display: inline-block;
+}
+
+.search {
+  margin-top: -20px;
+}
+
+.search input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+}
+
+.search input {
+  position: relative;
+  margin-left: -300px;
+}
+
+.search [type=submit] {
+  border: 1px solid white;
+  width: 50px;
+  height: 35px;
+  color: white;
+  border-radius: 10%;
+  background-color: darkred;
+}
+
+.fa-search {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: -40px;
+}
+
+.topnav {
+  display: none;
+}
+
+@media screen and (max-width: 882px) {
+  .search {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav {
+    background-color: white;
+    display: block;
+    max-width: 480px;
+    margin: auto;
+    background-color: white;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  .topnav a {
+    color: white;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #8d0707;
+    position: relative;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background-color: #8d0707;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a:hover {
+    background-color: red;
+    color: black;
+  }
+
+  .active {
+    background-color: #8d0707;
+    color: white;
+  }
+
+  .open-menu {
+    display: none;
+  }
+}
+.carousel-inner img {
+  margin: 0 auto;
+  display: block;
+  width: 90%;
+  height: 600px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: red;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: red;
+}
