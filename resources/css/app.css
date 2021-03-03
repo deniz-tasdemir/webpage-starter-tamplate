@@ -496,23 +496,26 @@ section {
   text-align: center; }
 
 .color-3 {
-  background: red; }
+  background-color: #8d0707; }
 
-.kapsa nav a {
-  position: relative;
-  display: inline-block;
-  margin: 5px 5px;
-  outline: none;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 400;
-  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
-  font-size: 1.5em; }
-.kapsa nav a:hover,
-.kapsa nav a:focus {
-  outline: none; }
+.kapsa {
+  width: 85vw;
+  margin-left: -30px; }
+  .kapsa nav a {
+    position: relative;
+    display: inline-block;
+    margin: 5px 5px;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+    font-size: 1.5em; }
+  .kapsa nav a:hover,
+  .kapsa nav a:focus {
+    outline: none; }
 
 .nav-19 a {
   padding: 5px;
@@ -562,12 +565,10 @@ body {
 
 /* General Styles */
 .kapsacontact {
-  background: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat;
-  background-position: 50% 20px;
+  background-image: url(../images/site/images/contact1.jpg);
   background-size: cover;
-  height: 100%;
-  width: 100%;
-  background-color: #000; }
+  height: 650px;
+  width: 102.5%; }
 
 /* Contact Form Styles */
 h1 {
@@ -618,7 +619,15 @@ h4 {
   width: 100%;
   height: 150px; }
 
-#contact-form button input [type="submit"] {
+#buttonsend button {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: darkred;
+  color: #FFF; }
+
+#contact-form button input[type="submit"] {
   cursor: pointer;
   width: 100%;
   border: none;
@@ -643,9 +652,14 @@ textarea:required {
   -webkit-box-shadow: none;
   -o-box-shadow: none; }
 
-#contact-form .required {
+#contact-form .required,
+#subjectt {
   font-weight: bold;
-  color: #E5E6E7; }
+  color: #E5E6E7;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none; }
 
 /* Hide success/failure message
     (especially since the php is missing) */

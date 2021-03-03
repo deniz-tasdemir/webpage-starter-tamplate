@@ -21,7 +21,7 @@
 			</div>
 			<div>		          
 		      <label for="subject">
-		      <span>Konu: </span>
+		      <span id="subjectt">Konu: </span>
 			      <select id="subject" name="subject" tabindex="4">   
 			         <option value="hello">Ürün Fiyat Sorgusu</option>
 			         <option value="quote">Ürünüm Nerede ?</option>  
@@ -35,7 +35,7 @@
 		      	<textarea id="message" name="message" placeholder="Lütfen Mesajınızı Yazınız.!" tabindex="5" required="required"></textarea> 
 		      </label>  
 			</div>
-			<div>		           
+			<div id="buttonsend">		           
 		      <button name="submit" type="submit" id="submit" >Gönder</button> 
 			</div>
 		   </form>		  

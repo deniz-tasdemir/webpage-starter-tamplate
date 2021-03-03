@@ -42,10 +42,12 @@ section {
 }
 
 .color-3 {
-    background: red;
+    background-color: rgb(141, 7, 7);
 }
 
 .kapsa {
+    width: 85vw;
+    margin-left: -30px;
     nav a {
         position: relative;
         display: inline-block;
