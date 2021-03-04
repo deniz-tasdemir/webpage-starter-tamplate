@@ -19191,6 +19191,8 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+__webpack_require__(/*! ./memberLogin */ "./resources/js/memberLogin.js");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -19222,6 +19224,65 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/memberLogin.js":
+/*!*************************************!*\
+  !*** ./resources/js/memberLogin.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+$(document).ready(function () {
+  $(".container").fadeIn(1000);
+  $(".s2class").css({
+    "color": "#EE9BA3"
+  });
+  $(".s1class").css({
+    "color": "#748194"
+  });
+  $("#left").removeClass("left_hover");
+  $("#right").addClass("right_hover");
+  $(".signin").css({
+    "display": "none"
+  });
+  $(".signup").css({
+    "display": ""
+  });
+});
+$("#right").click(function () {
+  $("#left").removeClass("left_hover");
+  $(".s2class").css({
+    "color": "#EE9BA3"
+  });
+  $(".s1class").css({
+    "color": "#748194"
+  });
+  $("#right").addClass("right_hover");
+  $(".signin").css({
+    "display": "none"
+  });
+  $(".signup").css({
+    "display": ""
+  });
+});
+$("#left").click(function () {
+  $(".s1class").css({
+    "color": "#EE9BA3"
+  });
+  $(".s2class").css({
+    "color": "#748194"
+  });
+  $("#right").removeClass("right_hover");
+  $("#left").addClass("left_hover");
+  $(".signup").css({
+    "display": "none"
+  });
+  $(".signin").css({
+    "display": ""
+  });
+});
 
 /***/ }),
 

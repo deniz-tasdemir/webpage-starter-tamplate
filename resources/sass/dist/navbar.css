@@ -2,11 +2,9 @@ body {
   font-family: "RocknRoll One", sans-serif;
   width: 100%;
 }
-body a {
-  text-decoration: none;
-}
 
 .nav-list {
+  border-radius: 30px;
   text-align: center;
   height: 40px;
   margin-top: -5px;
@@ -18,7 +16,6 @@ body a {
 
 .open-menu {
   width: 83.455vw;
-  border-radius: 30px;
   background-color: #8d0707;
   min-width: 450px;
   height: 60px;
@@ -93,7 +90,7 @@ i.fa-chevron-down {
 
 .search input {
   position: relative;
-  margin-left: -300px;
+  margin-left: 250px;
 }
 
 .search [type=submit] {
@@ -109,6 +106,25 @@ i.fa-chevron-down {
   position: absolute;
   margin-top: 12px;
   margin-left: -40px;
+}
+
+.signin {
+  margin: -5px auto auto auto;
+  padding: 5px;
+  display: inline-block;
+  height: 40px;
+  width: 100px;
+  color: white;
+}
+.signin ul {
+  display: flex;
+}
+.signin ul li a {
+  border: none;
+  width: 36px;
+  height: 31px;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .topnav {

@@ -56,3 +56,17 @@ class bootstrapController extends Controller
 }
 }
 
+class bootstrapController extends Controller
+{
+    public function signUp(){      
+    return view ('deniz.signUp');
+}
+}
+class bootstrapController extends Controller
+{
+    public function memberLogin(){      
+    return view ('deniz.memberLogin');
+}
+}
+
+

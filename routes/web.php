@@ -43,6 +43,12 @@ Route::get('/aboutus', function () {
 Route::get('/help', function () {
     return view('layouts.site.help');
 });
+Route::get('/signUp', function () {
+    return view('layouts.site.signUp');
+});
+Route::get('/memberLogin', function () {
+    return view('layouts.site.memberLogin');
+});
 
 
 
