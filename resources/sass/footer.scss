@@ -7,11 +7,6 @@
     text-decoration: none;
 }
 
-body {
-    margin: 0;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, Tahoma, sans-serif;
-}
-
 header {
     margin: 0 auto;
     padding: 2em;
@@ -51,6 +46,8 @@ section {
     width: 85vw;
     bottom: 0;
     margin-left: -30px;
+    bottom: -1px;
+    justify-content: end;
     nav a {
         position: relative;
         display: inline-block;

@@ -21,14 +21,13 @@
   <input type="text" placeholder="Search.."><span><i class="fas fa-search"></i></span>
   <button type="submit">Ara</button>
   </div>
-  <span class="signin">
+  <span class="signin">    
   <ul>
-      <li><a href="{{ url('/memberLogin') }}" <i class="fas  fa-2x fa-user"></i></li></a>     
+      <li><a href="{{ url('/memberLogin') }}"> <i class="fas  fa-2x fa-user"></i></li></a>     
       <li><a href="{{ url('/signUp') }}" ><i class="fas  fa-2x fa-address-card"></i></li></a>
   </ul>
 </span>
-  </nav>
-  
+  </nav>  
   <div>
 
         

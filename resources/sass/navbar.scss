@@ -11,6 +11,10 @@ body {
     display: inline-block;
     a {
         color: white;
+        &:hover {
+            text-decoration: none;
+            background-color: red;
+        }
     }
 }
 
@@ -38,10 +42,10 @@ body {
                 line-height: 40px;
                 border: solid 1px red;
                 border-radius: 10%;
-                &:hover {
-                    text-decoration: none;
-                    background-color: red;
-                }
+                // &:hover {
+                //     text-decoration: none;
+                //     background-color: red;
+                // }
             }
         }
     }
@@ -76,7 +80,6 @@ body {
 
 i.fa-chevron-down {
     display: flex;
-    width: 20px;
     display: inline-block;
 }
 
@@ -127,6 +130,9 @@ i.fa-chevron-down {
                 height: 31px;
                 display: inline-block;
                 margin: 0 auto;
+                &:hover {
+                    color: red;
+                }
             }
         }
     }

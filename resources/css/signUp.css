@@ -1,15 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif; }
-
-body {
-  background: #fec107;
-  padding: 0 10px; }
-
 .wrapper {
+  background-image: url(images/site/images/memberLogin.png);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
   max-width: 500px;
   width: 100%;
   background: #fff;
@@ -21,7 +19,7 @@ body {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
-  color: #fec107;
+  color: darkred;
   text-transform: uppercase;
   text-align: center; }
 
@@ -133,14 +131,14 @@ body {
   padding: 8px 10px;
   font-size: 15px;
   border: 0px;
-  background: #fec107;
+  background: gray;
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
   outline: none; }
 
 .wrapper .form .inputfield .btn:hover {
-  background: darkgreen; }
+  background: darkred; }
 
 .wrapper .form .inputfield:last-child {
   margin-bottom: 0; }
@@ -156,4 +154,4 @@ body {
   .wrapper .form .inputfield.terms {
     flex-direction: row; } }
 
-/*# sourceMappingURL=sign-up.css.map */
+/*# sourceMappingURL=signUp.css.map */

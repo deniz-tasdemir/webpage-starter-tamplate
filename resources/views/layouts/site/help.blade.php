@@ -9,8 +9,10 @@
   </head>
   <body>
   @include('layouts.site.navbar')  
-<div class="container">
+  <div class="help">
+  <div class="container"> 
 <h1>YARDIM</h1>
+</div>
 </div>
  @include('layouts.site.footer') 
 

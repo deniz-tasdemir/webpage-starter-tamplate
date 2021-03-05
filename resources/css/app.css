@@ -10,6 +10,9 @@ body {
   display: inline-block; }
   .nav-list a {
     color: white; }
+    .nav-list a:hover {
+      text-decoration: none;
+      background-color: red; }
 
 .open-menu {
   width: 83.455vw;
@@ -34,9 +37,6 @@ body {
       line-height: 40px;
       border: solid 1px red;
       border-radius: 10%; }
-      .open-menu ul li a:hover {
-        text-decoration: none;
-        background-color: red; }
 
 .opennavbar {
   display: none;
@@ -62,7 +62,6 @@ body {
 
 i.fa-chevron-down {
   display: flex;
-  width: 20px;
   display: inline-block; }
 
 .search {
@@ -105,6 +104,8 @@ i.fa-chevron-down {
       height: 31px;
       display: inline-block;
       margin: 0 auto; }
+      .signin ul li a:hover {
+        color: red; }
 
 .topnav {
   display: none; }
@@ -483,10 +484,6 @@ template {
   box-sizing: border-box;
   text-decoration: none; }
 
-body {
-  margin: 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, Tahoma, sans-serif; }
-
 header {
   margin: 0 auto;
   padding: 2em;
@@ -520,7 +517,9 @@ section {
 .kapsa {
   width: 85vw;
   bottom: 0;
-  margin-left: -30px; }
+  margin-left: -30px;
+  bottom: -1px;
+  justify-content: end; }
   .kapsa nav a {
     position: relative;
     display: inline-block;
@@ -698,7 +697,15 @@ textarea:required {
     padding-left: 3%;
     padding-right: 3%; } }
 .wrapper {
-  background-color: darkred;
+  background-image: url(images/site/images/memberLogin.png);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
   max-width: 500px;
   width: 100%;
   background: #fff;
@@ -1239,5 +1246,9 @@ iframe {
   .alert-validate::before {
     visibility: visible;
     opacity: 1; } }
+.help {
+  display: inline-block;
+  height: 500px;
+  color: red; }
 
 /*# sourceMappingURL=app.css.map */
