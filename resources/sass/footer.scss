@@ -42,28 +42,34 @@ section {
     border-radius: 40px;
 }
 
-.kapsa {
-    width: 85vw;
-    bottom: 0;
-    margin-left: -30px;
-    bottom: -1px;
-    justify-content: end;
-    nav a {
-        position: relative;
-        display: inline-block;
-        margin: 5px 5px;
-        outline: none;
-        color: #fff;
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-weight: 400;
-        text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
-        font-size: 1em;
-    }
-    nav a:hover,
-    nav a:focus {
-        outline: none;
+.container {
+    position: relative;
+    min-height: 150px;
+    .kapsa {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 85vw;
+        bottom: 0;
+        margin-left: -30px;
+        justify-content: end;
+        nav a {
+            position: relative;
+            display: inline-block;
+            margin: 5px 5px;
+            outline: none;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 400;
+            text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+            font-size: 1em;
+        }
+        nav a:hover,
+        nav a:focus {
+            outline: none;
+        }
     }
 }
 

@@ -42,14 +42,20 @@ section {
   border-radius: 40px;
 }
 
-.kapsa {
+.container {
+  position: relative;
+  min-height: 150px;
+}
+.container .kapsa {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 85vw;
   bottom: 0;
   margin-left: -30px;
-  bottom: -1px;
   justify-content: end;
 }
-.kapsa nav a {
+.container .kapsa nav a {
   position: relative;
   display: inline-block;
   margin: 5px 5px;
@@ -62,8 +68,8 @@ section {
   text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
   font-size: 1em;
 }
-.kapsa nav a:hover,
-.kapsa nav a:focus {
+.container .kapsa nav a:hover,
+.container .kapsa nav a:focus {
   outline: none;
 }
 

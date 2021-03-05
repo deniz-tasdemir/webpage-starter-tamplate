@@ -13,6 +13,10 @@ body {
 .nav-list a {
   color: white;
 }
+.nav-list a:hover {
+  text-decoration: none;
+  background-color: red;
+}
 
 .open-menu {
   width: 83.455vw;
@@ -39,10 +43,6 @@ body {
   line-height: 40px;
   border: solid 1px red;
   border-radius: 10%;
-}
-.open-menu ul li a:hover {
-  text-decoration: none;
-  background-color: red;
 }
 
 .opennavbar {
@@ -74,7 +74,6 @@ body {
 
 i.fa-chevron-down {
   display: flex;
-  width: 20px;
   display: inline-block;
 }
 
@@ -102,6 +101,10 @@ i.fa-chevron-down {
   background-color: darkred;
 }
 
+.searchbutton:hover {
+  background-color: red;
+}
+
 .fa-search {
   position: absolute;
   margin-top: 12px;
@@ -125,6 +128,9 @@ i.fa-chevron-down {
   height: 31px;
   display: inline-block;
   margin: 0 auto;
+}
+.signin ul li a:hover {
+  color: red;
 }
 
 .topnav {

@@ -19,7 +19,7 @@
   </div>
   <div class="search">
   <input type="text" placeholder="Search.."><span><i class="fas fa-search"></i></span>
-  <button type="submit">Ara</button>
+  <button type="submit" class="searchbutton">Ara</button>
   </div>
   <span class="signin">    
   <ul>

@@ -1,4 +1,7 @@
 body {
+  min-height: 100%; }
+
+body {
   font-family: 'RocknRoll One', sans-serif;
   width: 100%; }
 
@@ -83,6 +86,9 @@ i.fa-chevron-down {
   color: white;
   border-radius: 10%;
   background-color: darkred; }
+
+.searchbutton:hover {
+  background-color: red; }
 
 .fa-search {
   position: absolute;
@@ -514,27 +520,32 @@ section {
   background-color: #8d0707;
   border-radius: 40px; }
 
-.kapsa {
-  width: 85vw;
-  bottom: 0;
-  margin-left: -30px;
-  bottom: -1px;
-  justify-content: end; }
-  .kapsa nav a {
-    position: relative;
-    display: inline-block;
-    margin: 5px 5px;
-    outline: none;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
-    font-size: 1em; }
-  .kapsa nav a:hover,
-  .kapsa nav a:focus {
-    outline: none; }
+.container {
+  position: relative;
+  min-height: 150px; }
+  .container .kapsa {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 85vw;
+    bottom: 0;
+    margin-left: -30px;
+    justify-content: end; }
+    .container .kapsa nav a {
+      position: relative;
+      display: inline-block;
+      margin: 5px 5px;
+      outline: none;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 400;
+      text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+      font-size: 1em; }
+    .container .kapsa nav a:hover,
+    .container .kapsa nav a:focus {
+      outline: none; }
 
 .nav-19 a {
   padding: 5px;
@@ -1246,9 +1257,10 @@ iframe {
   .alert-validate::before {
     visibility: visible;
     opacity: 1; } }
-.help {
+.help .container {
   display: inline-block;
-  height: 500px;
+  min-height: 500px;
+  width: 100%;
   color: red; }
 
 /*# sourceMappingURL=app.css.map */
