@@ -1,8 +1,3 @@
-body {
-  font-family: "RocknRoll One", sans-serif;
-  width: 100%;
-}
-
 .nav-list {
   border-radius: 30px;
   text-align: center;
@@ -147,7 +142,7 @@ i.fa-chevron-down {
     background-color: white;
     display: block;
     max-width: 480px;
-    margin: auto;
+    margin: -60px auto;
     background-color: white;
     height: 500px;
     color: white;
@@ -185,6 +180,7 @@ i.fa-chevron-down {
 
   .topnav a:hover {
     background-color: red;
+    text-decoration: none;
     color: black;
   }
 
@@ -212,4 +208,18 @@ i.fa-chevron-down {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: red;
+}
+
+@media screen and (max-width: 1123px) {
+  .search input {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .open-menu {
+    opacity: 0;
+  }
+  .open-menu ul {
+    display: none;
+  }
 }

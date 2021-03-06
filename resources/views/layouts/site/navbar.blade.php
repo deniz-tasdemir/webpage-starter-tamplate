@@ -1,6 +1,6 @@
 
 
-<div class="container">
+<div class="container"> 
 <nav class="navbar open-menu">
   <div class="header-menu">
 <ul class="nav-list">  
@@ -13,8 +13,7 @@
         <li><a href="{{ url('/csslesson') }}" >CSS 3</a></li>        
         </ul>
       </li>
-      <li><a href="{{ url('/contact') }}" >İletişim</a></li>  
-    
+      <li><a href="{{ url('/contact') }}" >İletişim</a></li>      
   </ul>
   </div>
   <div class="search">
@@ -27,10 +26,9 @@
       <li><a href="{{ url('/signUp') }}" ><i class="fas  fa-2x fa-address-card"></i></li></a>
   </ul>
 </span>
-  </nav>  
+</nav> 
   <div>
-
-        
+          
         <!-- Hamburger-Menu -->
         <div class="topnav"> 
             <a href="{{ url('/anasayfa') }}" >Deniz</a>
