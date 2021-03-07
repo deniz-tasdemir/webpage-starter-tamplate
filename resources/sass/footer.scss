@@ -7,33 +7,9 @@
         text-decoration: none;
     }
     
-    header {
-        margin: 0 auto;
-        padding: 2em;
-        text-align: center;
-    }
-    
-    header h1 {
-        font-size: 2.625em;
-        margin: 0;
-        font-weight: 300;
-        cursor: pointer;
-        text-shadow: 2px 2px 8px #583A3A;
-        color: #fff;
-        -webkit-transition: text-shadow 0.8s, color 0.8s;
-        -moz-transition: text-shadow 0.8s, color 0.8s;
-        transition: text-shadow 0.8s, color 0.8s;
-    }
-    
-    header h1:hover {
-        color: #89867e;
-        text-shadow: none;
-    }
-    
     section {
-        margin: 0 auto;
-        padding: 1em 1em;
-        margin: 1em;
+        padding: 1em 0;
+        // margin: 2em 0;
         text-align: center;
     }
     
@@ -42,17 +18,17 @@
         border-radius: 40px;
     }
     
-    .container {
+    .container-footer {
         position: relative;
         min-height: 150px;
+        width: 78.2vw;
+        padding: 50px!important;
         .kapsa {
+            width: 81.5vw;
+            margin: 0 auto;
             position: absolute;
             bottom: 0;
-            left: 0;
-            min-width: 500px;
-            width: 90vw;
             bottom: 0;
-            margin-left: -30px;
             justify-content: end;
             nav a {
                 position: relative;
@@ -77,6 +53,7 @@
     .nav-19 a {
         padding: 5px;
         text-shadow: -1px 1px 8px #fff;
+        // margin: 0 auto;
     }
     
     .nav-19 a::after,
@@ -110,19 +87,19 @@
     //RESPONSİVE
     @media screen and (max-width: 600px) {
         .container-footer {
-            margin-top: -60px;
-            width: 100%;
+            margin-top: -250px;
             .kapsa {
-                max-width: 500px;
+                min-width: 85vw;
                 position: absolute;
-                width: 20%;
             }
             .color-3 {
-                width: 92%;
-                margin-left: 26px;
+                width: 100%;
+                margin-top: -140px;
             }
-            a {
-                font-size: 1.5vw;
+            .nav-19 {
+                a {
+                    font-size: 24px;
+                }
             }
         }
     }

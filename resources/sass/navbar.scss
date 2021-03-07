@@ -147,7 +147,7 @@
                             display: none;
                         }
                         
-                        @media screen and (max-width: 882px) {
+                        @media screen and (max-width: 1000px) {
                             .search {
                                 display: none;
                             }
@@ -156,6 +156,7 @@
                         // HAMBURGER MENU
                         @media screen and (max-width: 600px) {
                             .topnav {
+                                margin: 0 auto;
                                 background-color: white;
                                 display: block;
                                 max-width: 480px;
@@ -240,10 +241,10 @@
                         
                         @media screen and (max-width: 1200px) {
                             .open-menu {
-                                width: 820px;
+                                width: 100%;
                                 margin: 0 auto;
-                            }
-                            .signin {
-                                margin-left: -30px;
+                                .signin {
+                                    margin-left: -30px;
+                                }
                             }
                         }
