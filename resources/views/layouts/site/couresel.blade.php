@@ -1,5 +1,5 @@
 
-<div class="container-body">
+ <div class="container-body"> 
 <div class="container mt-2">
 <div id="carouselExampleIndicators"  class="carousel slide" data-ride="carousel" data-interval="2000">
   <ol class="carousel-indicators">
@@ -32,4 +32,4 @@
  </div>
  </div>
 
- </div>
+  </div> 

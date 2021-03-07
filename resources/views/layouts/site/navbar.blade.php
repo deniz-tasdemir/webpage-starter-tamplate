@@ -12,8 +12,8 @@
         <li><a href="{{ url('/javascript') }}" >Javascript</a></li>
         <li><a href="{{ url('/csslesson') }}" >CSS 3</a></li>        
         </ul>
-      </li>
-      <li><a href="{{ url('/contact') }}" >İletişim</a></li>      
+      </li>       
+     <li><a href="{{ url('/contact') }}" >İletişim</a></li>     
   </ul>
   </div>
   <div class="search">
@@ -42,7 +42,7 @@
                                 
                   </ul>
                 
-                <a href="#">İletişim</a>
+                 <a href="{{ url('/contact') }}" >İletişim</a> 
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>

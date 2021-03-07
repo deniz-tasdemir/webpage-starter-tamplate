@@ -18,7 +18,7 @@
                         }
                         
                         .open-menu {
-                            width: 83.455vw;
+                            // width: 83.455vw;
                             background-color: rgb(141, 7, 7);
                             min-width: 450px;
                             height: 60px;
@@ -159,7 +159,7 @@
                                 background-color: white;
                                 display: block;
                                 max-width: 480px;
-                                margin: -60px auto;
+                                margin-top: -60px;
                                 background-color: white;
                                 height: 450px;
                                 color: white;
@@ -223,7 +223,7 @@
                         }
                         
                         // Responsive Tasarım
-                        @media screen and (max-width: 1123px) {
+                        @media screen and (max-width: 1200px) {
                             .search input {
                                 margin-left: 10px;
                             }
@@ -235,5 +235,15 @@
                                 ul {
                                     display: none;
                                 }
+                            }
+                        }
+                        
+                        @media screen and (max-width: 1200px) {
+                            .open-menu {
+                                width: 820px;
+                                margin: 0 auto;
+                            }
+                            .signin {
+                                margin-left: -30px;
                             }
                         }

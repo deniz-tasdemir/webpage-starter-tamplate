@@ -13,7 +13,7 @@
 </head>
 
 <body> 
-    <div class="container">        
+    <div class="container container-footer">        
         <div class="kapsa">   
         <section class="color-3">
             <nav class="nav-19">
