@@ -14,19 +14,14 @@ section {
   background-color: #8d0707;
   border-radius: 40px; }
 
-.container-footer {
+.kapsa {
   position: relative;
-  min-height: 150px;
-  width: 78.2vw;
-  padding: 50px !important; }
-  .container-footer .kapsa {
-    width: 81.5vw;
-    margin: 0 auto;
+  min-height: 150px; }
+  .kapsa .container-footer {
     position: absolute;
-    bottom: 0;
-    bottom: 0;
+    bottom: 50px;
     justify-content: end; }
-    .container-footer .kapsa nav a {
+    .kapsa .container-footer nav a {
       position: relative;
       display: inline-block;
       margin: 0px 0px;
@@ -38,8 +33,8 @@ section {
       font-weight: 400;
       text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
       font-size: 1.5vw; }
-    .container-footer .kapsa nav a:hover,
-    .container-footer .kapsa nav a:focus {
+    .kapsa .container-footer nav a:hover,
+    .kapsa .container-footer nav a:focus {
       outline: none; }
 
 .nav-19 a {
@@ -69,17 +64,5 @@ section {
 .nav-19 a:hover::after,
 .nav-19 a:hover::before {
   width: 100%; }
-
-@media screen and (max-width: 600px) {
-  .container-footer {
-    margin-top: -250px; }
-    .container-footer .kapsa {
-      min-width: 85vw;
-      position: absolute; }
-    .container-footer .color-3 {
-      width: 100%;
-      margin-top: -140px; }
-    .container-footer .nav-19 a {
-      font-size: 24px; } }
 
 /*# sourceMappingURL=footer.css.map */

@@ -9,7 +9,6 @@
     
     section {
         padding: 1em 0;
-        // margin: 2em 0;
         text-align: center;
     }
     
@@ -18,17 +17,12 @@
         border-radius: 40px;
     }
     
-    .container-footer {
+    .kapsa {
         position: relative;
         min-height: 150px;
-        width: 78.2vw;
-        padding: 50px!important;
-        .kapsa {
-            width: 81.5vw;
-            margin: 0 auto;
+        .container-footer {
             position: absolute;
-            bottom: 0;
-            bottom: 0;
+            bottom: 50px;
             justify-content: end;
             nav a {
                 position: relative;
@@ -53,7 +47,6 @@
     .nav-19 a {
         padding: 5px;
         text-shadow: -1px 1px 8px #fff;
-        // margin: 0 auto;
     }
     
     .nav-19 a::after,
@@ -82,24 +75,4 @@
     .nav-19 a:hover::after,
     .nav-19 a:hover::before {
         width: 100%;
-    }
-    
-    //RESPONSİVE
-    @media screen and (max-width: 600px) {
-        .container-footer {
-            margin-top: -250px;
-            .kapsa {
-                min-width: 85vw;
-                position: absolute;
-            }
-            .color-3 {
-                width: 100%;
-                margin-top: -140px;
-            }
-            .nav-19 {
-                a {
-                    font-size: 24px;
-                }
-            }
-        }
     }

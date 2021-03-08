@@ -13,8 +13,9 @@
 </head>
 
 <body> 
-    <div class="container container-footer p-0 m-0">        
+            
         <div class="kapsa">   
+        <div class="container container-footer">
         <section class="color-3">
             <nav class="nav-19">
             <a  href="{{ url('/anasayfa') }}" data-hover="Lorem">Anasayfa</a>               
