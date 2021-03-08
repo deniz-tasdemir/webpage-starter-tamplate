@@ -559,6 +559,13 @@ section {
 .nav-19 a:hover::before {
   width: 100%; }
 
+@media screen and (max-width: 900px) {
+  .container-body {
+    margin-top: 30px;
+    height: 60vh; }
+
+  .carousel-item img {
+    height: 60vh; } }
 body {
   color: #C0C0C0;
   font-family: Arial, san-serif; }

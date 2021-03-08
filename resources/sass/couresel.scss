@@ -1,21 +1,12 @@
         // .carousel-item {
-        //     img {
-        //         margin-left: 0 auto;
-        //         justify-content: center;
-        //     }
-        // }
-        // @media screen and (max-width: 600px) {
-        //     .container-body {
-        //         height: 60vh;
-        //         max-width: 500px;
-        //         margin-left: -10px;
-        //         background-color: white!important;
-        //     }
-        //     .carousel-item {
-        //         img {
-        //             max-width: 500px;
-        //             height: 60vh;
-        //             width: 100%;
-        //         }
-        //     }
-        // }
+        @media screen and (max-width:900px) {
+            .container-body {
+                margin-top: 30px;
+                height: 60vh;
+            }
+            .carousel-item {
+                img {
+                    height: 60vh;
+                }
+            }
+        }
