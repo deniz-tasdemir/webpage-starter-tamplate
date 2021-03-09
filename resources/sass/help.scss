@@ -1,8 +1,134 @@
-    .help {
-        .container {
-            display: inline-block;
-            min-height: 500px;
-            width: 100%;
-            color: red;
+* {
+    box-sizing: border-box;
+}
+
+$blue:#4776e6;
+$gray:#585858;
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: $gray;
+}
+
+.topapps-navbar {
+    // .logo {}
+    .navbar-nav {
+        a.active {
+            color: $blue;
+        }
+        li {
+            a {
+                font-weight: 600;
+                color: $gray;
+            }
         }
     }
+}
+
+.sectionBody {
+    background-color: $blue;
+}
+
+.btn-white {
+    display: inline-block;
+    width: 147.35px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 13px;
+    padding: 15px 25px;
+    color: $gray;
+    font-weight: 600;
+    &:hover {
+        border: 1px solid #fff!important;
+        background-color: transparent;
+        color: $gray
+    }
+}
+
+.btn-discover {
+    border: 1px solid white!important;
+    color: white;
+    font-size: 13px;
+    padding: 15px 25px;
+    font-weight: 600;
+    &:hover {
+        border: 1px solid #fff!important;
+        background-color: #fff;
+        color: $gray
+    }
+}
+
+.section-h {
+    background-color: #f6f6f6;
+    color: $blue;
+    h2 {
+        font-size: 2vw;
+        font-weight: 900;
+        font-family: Relaway- sans-serif;
+        color: $blue;
+    }
+    p {
+        font-weight: 900;
+        font-family: Relaway- sans-serif;
+        color: $gray;
+    }
+}
+
+.section-h2 {
+    background-color: #f6f6f6;
+    color: $blue;
+    // .row {
+    //     .brand {
+    //         box-sizing: border-box;
+    //         margin-right: 5px;
+    //         color: #f6f6f6;
+    //     }
+    h2 {
+        font-size: 2vw;
+        text-align: center;
+        font-weight: 900;
+        font-family: Relaway- sans-serif;
+        color: $blue;
+    }
+}
+
+p {
+    text-align: center;
+}
+
+.brand {
+    max-width: 850px;
+    .features-box {
+        text-align: center;
+        background-color: #ffffff;
+        padding: 25px;
+        h6 {
+            color: $gray;
+        }
+        p {
+            color: #a6a6a6;
+            font-weight: bold;
+        }
+    }
+}
+
+.features-content {
+    h6 {
+        font-weight: 900;
+        color: $blue;
+    }
+    p {
+        color: $gray;
+        font-weight: 900;
+    }
+}
+
+// RESPONSİVE
+@media screen and (max-width: 768px) {
+    .section-h2 {
+        .brand {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+}

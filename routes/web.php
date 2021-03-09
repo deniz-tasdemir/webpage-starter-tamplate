@@ -49,5 +49,8 @@ Route::get('/signUp', function () {
 Route::get('/memberLogin', function () {
     return view('layouts.site.memberLogin');
 });
+Route::get('/psd', function () {
+    return view('layouts.site.psd');
+});
 
 

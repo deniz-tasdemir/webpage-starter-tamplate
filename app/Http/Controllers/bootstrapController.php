@@ -68,5 +68,11 @@ class bootstrapController extends Controller
     return view ('deniz.memberLogin');
 }
 }
+class bootstrapController extends Controller
+{
+    public function psd(){      
+    return view ('deniz.psd');
+}
+}
 
 
