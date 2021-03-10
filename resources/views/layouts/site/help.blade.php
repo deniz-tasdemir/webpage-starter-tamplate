@@ -40,8 +40,7 @@
      <div class="col-sm-8">
         <h1 class="text-white pr-5 pt-5">The Best way to present Your beautiful apps </h1>
       <p class="text-white pr-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elyit. Aenean commodo ligula egiet dolor.    nean massa. Cum tsociis natoque penatibus et magnisil, consectetuer adipiscing elyit. nato parturient montes, nascetur ridiculus mus. Donec quam felis nascetur htho all.
-
-          </p>
+         </p>
           <a class="btn btn-white" href="#">GET APP NOW</a>
           <a  class="btn btn-discover" href="#">DISCOVER MORE</a></div>    
           <div class="col-sm-4">
@@ -58,10 +57,10 @@
 <p> Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo vestibulum eget lectus non gravida ultrices</p>
 </div>
 <img  class="img-fluid mb-2"  src="images/site/images/dashboard.png" alt="dashboard">
-</div>
+
   <div class="container mt-5">
 <div class="row ">
-<div class="col-md-3 brand"> 
+<div class="col-sm-3 brand"> 
   <div class="features-box">
 <img src="images/site/images/pencil.png" alt="pencil" srcset="">
 <h6>BRAND IDENTY </h6>
@@ -90,6 +89,9 @@
 </div>
 </div>
 </div>
+
+
+
 </section>
 <section class="section-h2">
 <h2>HOW IT WORKS</h2>
@@ -99,31 +101,30 @@
 </div>
 </div>
 </div>
+<div class="features-content">
 <div class="row">
-<div class="col-md-8 mt-5">
-  <div class="features-content">
+<div class="col-md-8 mt-5">  
     <h6>WHAT IS TOPAPPS</h6>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-  </div>    
-  <div class="features-content">
     <h6>HOW TO WORK</h6>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-  </div>
-  <div class="features-content">
-    <h6>HOW TO WORK</h6>
+      <h6>HOW TO WORK</h6>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-  </div>
-  <div class="features-content">
-    <h6>HOW TO WORK</h6>
+      <h6>HOW TO WORK</h6>     
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-  </div>
-  </div> 
-<div class="col-md-4">
-<img src="images/site/images/section3.png" alt="home-logo" srcset="">
+    </div> 
+       
+  <div class="col-sm-4"> 
+  <div class="features-image mr-auto">   
+<img class="img-fluid" src="images/site/images/section3.png" alt="home-logo" srcset="">
 </div>
-</div>
- <footer>
 
- </footer>
 </div>
 </div>
+</div>
+</div>
+
+
+
+
+

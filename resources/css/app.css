@@ -1333,5 +1333,9 @@ p {
 @media screen and (max-width: 768px) {
   .section-h2 .brand h3 {
     font-size: 20px; } }
+@media screen and (max-width: 968px) {
+  .features-image img {
+    margin-top: 80px;
+    margin-left: -50px; } }
 
 /*# sourceMappingURL=app.css.map */
