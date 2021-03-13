@@ -118,11 +118,58 @@
   <div class="features-image mr-auto">   
 <img class="img-fluid" src="images/site/images/section3.png" alt="home-logo" srcset="">
 </div>
+</div>
+</div>
+</div>
+</div>
 
+<!-- OWL CAROUSEL -->
+<section class="section-h2">
+<h2>AWESOME SCREENSHOTS</h2>
+<img  class="img-fluid mb-2"  src="images/site/images/dashboard.png" alt="dashboard">
+<p class="text-center w-50 m-auto">Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo
+ vestibulum eget lectus non gravida ultrices</p>
+
+ <div class="owl-carousel owl-theme">
+    <div class="item">
+      <img src="images/site/images/owl-1.png" alt="" srcset="">
+    <h4>1</h4></div>
+    <div class="item">
+    <img src="images/site/images/owl-2.png" alt="" srcset=""><h4>2</h4></div>
+    <div class="item">
+    <img src="images/site/images/owl-3.png" alt="" srcset=""><h4>3</h4></div>
+    <div class="item">
+    <img src="images/site/images/owl-4.png" alt="" srcset=""><h4>4</h4></div>
 </div>
-</div>
-</div>
-</div>
+
+ <script>
+$(function() {  
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+});
+
+ </script>
+ 
+
+
+
+
+
+
 
 
 
